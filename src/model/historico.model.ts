@@ -11,3 +11,4 @@ export class Historico extends AbstractEntity{
     paciente! : Paciente
     agenda! : Agenda
 }
+

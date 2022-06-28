@@ -12,7 +12,7 @@
             <i class="fas fa-search" aria-hidden="true"></i>
           </span>
         </p>
-        <a href="" title=""><button class="button">Cadastrar</button></a>
+        <router-link to="/cadastrar-paciente"><button class="button">Cadastrar</button></router-link>
         <a href="" title=""><button class="button">Procurar</button></a>
       </div>
 
@@ -34,57 +34,16 @@
 
         <tr>
           <th>1</th>
-          <td>Itamed</td>
-          <td><a href="" title=""><button class="button">Detalhar</button></a></td>
+          <td>Gustavo Lima</td>
+          <td><router-link to="/detalhar-paciente"><button class="button">Detalhar</button></router-link></td>
         </tr>
 
         <tr>
-          <th>1</th>
-          <td>Itamed</td>
-          <td><a href="" title=""><button class="button">Detalhar</button></a></td>
+          <th>2</th>
+          <td>Raffaela Silva</td>
+          <td><router-link to="/detalhar-paciente"><button class="button">Detalhar</button></router-link></td>
         </tr>
 
-        <tr>
-          <th>1</th>
-          <td>Itamed</td>
-          <td><a href="" title=""><button class="button">Detalhar</button></a></td>
-        </tr>
-
-        <tr>
-          <th>1</th>
-          <td>Itamed</td>
-          <td><a href="" title=""><button class="button">Detalhar</button></a></td>
-        </tr>
-
-        <tr>
-          <th>1</th>
-          <td>Itamed</td>
-          <td><a href="" title=""><button class="button">Detalhar</button></a></td>
-        </tr>
-
-        <tr>
-          <th>1</th>
-          <td>Itamed</td>
-          <td><a href="" title=""><button class="button">Detalhar</button></a></td>
-        </tr>
-
-        <tr>
-          <th>1</th>
-          <td>Itamed</td>
-          <td><a href="" title=""><button class="button">Detalhar</button></a></td>
-        </tr>
-
-        <tr>
-          <th>1</th>
-          <td>Itamed</td>
-          <td><a href="" title=""><button class="button">Detalhar</button></a></td>
-        </tr>
-
-        <tr>
-          <th>1</th>
-          <td>Itamed</td>
-          <td><a href="" title=""><button class="button">Detalhar</button></a></td>
-        </tr>
 
       </tbody>
 
