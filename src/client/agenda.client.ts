@@ -1,7 +1,7 @@
 import { PageRequest } from "@/model/page/page-request";
 import { PageResponse } from "@/model/page/page-response";
 import axios, { AxiosInstance } from "axios";
-import {Agenda} from "../model/agenda.model";
+import { Agenda } from "../model/agenda.model";
 
 export class AgendaClient {
 
@@ -10,7 +10,7 @@ export class AgendaClient {
     constructor() {
         this.axiosClient = axios.create({
             baseURL: 'http://localhost:8080/api/agenda',
-            headers: {'Content-type' : 'application/json'}
+            headers: { 'Content-type': 'application/json' }
         });
     }
 
@@ -22,7 +22,7 @@ export class AgendaClient {
         }
     }
 
-    public async findByFiltrosPaginado(pageRequest : PageRequest): Promise<PageResponse<Agenda>> {
+    public async findByFiltrosPaginado(pageRequest: PageRequest): Promise<PageResponse<Agenda>> {
         try {
 
             let requestPath = ''
@@ -66,3 +66,4 @@ export class AgendaClient {
         }
     }
 }
+
