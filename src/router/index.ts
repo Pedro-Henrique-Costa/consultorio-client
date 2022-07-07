@@ -51,15 +51,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/especialidade/especialidade-list.vue')
   },
   {
-    path: '/cadastrar-especialidade',
-    name: 'cadastrar-especialidade',
-    component: () => import('../views/especialidade/cadastrar-list.vue')
+    path: '/especialidade-form',
+    name: 'especialidade-form',
+    component: () => import('../views/especialidade/especialidade-form.vue')
   },
-  {
-    path: '/detalhar-especialidade',
-    name: 'detalhar-especialidade',
-    component: () => import('../views/especialidade/detalhar-list.vue')
-  },
+  
   {
     path: '/historico',
     name: 'historico',

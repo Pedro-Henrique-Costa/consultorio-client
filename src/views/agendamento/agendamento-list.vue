@@ -1,6 +1,6 @@
 <template>
   <div class="agendamento">
-    <article class="panel is-warning">
+    <article class="panel is-warning column is-8">
       <p class="panel-heading">
         Agendamento
       </p>
@@ -22,12 +22,14 @@
         <tr>
           <th>ID</th>
           <th>Data de</th>
+          <th></th>
         </tr>
       </thead>
       <tfoot>
         <tr>
           <th>ID</th>
           <th>Data de</th>
+          <th></th>
         </tr>
       </tfoot>
       <tbody>

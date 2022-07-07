@@ -1,11 +1,11 @@
 <template>
   <div class="medico">
-    <article class="panel is-warning">
+    <article class="panel is-warning column is-8">
       <p class="panel-heading">
         Medico
       </p>
 
-      <div class="panel-block">
+      <div class="panel-block ">
         <p class="control has-icons-left">
           <input class="input is-warning" type="text" placeholder="Search">
           <span class="icon is-left">
@@ -22,12 +22,14 @@
         <tr>
           <th>ID</th>
           <th>Nome</th>
+          <th></th>
         </tr>
       </thead>
       <tfoot>
         <tr>
           <th>ID</th>
           <th>Nome</th>
+          <th></th>
         </tr>
       </tfoot>
       <tbody>
@@ -35,13 +37,17 @@
         <tr>
           <th>1</th>
           <td>Vitor Souza</td>
-          <td><router-link to="/detalhar-medico"><button class="button">Detalhar</button></router-link></td>
+          <td>
+            <router-link to="/detalhar-medico"><button class="button">Detalhar</button></router-link>
+          </td>
         </tr>
 
         <tr>
           <th>2</th>
           <td>João Gustavo</td>
-          <td><router-link to="/detalhar-medico"><button class="button">Detalhar</button></router-link></td>
+          <td>
+            <router-link to="/detalhar-medico"><button class="button">Detalhar</button></router-link>
+          </td>
         </tr>
 
 
@@ -59,6 +65,4 @@
 .button {
   margin-left: 10px;
 }
-
-
 </style>
